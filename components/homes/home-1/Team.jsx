@@ -15,12 +15,12 @@ export default function Team() {
               ”
             </div>
             <p>
-              We are strong team who brings innovative ideas into production.
-            </p>
+            We are a dynamic team dedicated to turning innovative ideas into reality.
+                        </p>
             <footer>
               <div className="section-line mb-10" />
-              Thomas Johnson
-              <div className="small">Developer, Co-founder</div>
+              Sulthan Alshehhi
+              <div className="small">CEO & Co-Founder</div>
             </footer>
           </blockquote>
         </div>

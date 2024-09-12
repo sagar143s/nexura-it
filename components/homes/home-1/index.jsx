@@ -39,7 +39,7 @@ export default function Home1({ onePage = false, dark = false }) {
             <div className="col-md-6">
               <h2 className="section-caption mb-xs-10">Our Story</h2>
               <h3 className="section-title mb-0">
-                <AnimatedText text="Better way to create stanning layouts." />
+                <AnimatedText text="Discover a better way to create stunning layouts." />
               </h3>
             </div>
             <div className="col-md-5 offset-md-1 relative text-start text-md-end pt-40 pt-sm-20 local-scroll">
@@ -142,14 +142,13 @@ export default function Home1({ onePage = false, dark = false }) {
           <div className="row">
             <div className="col-lg-4 mb-md-60 mb-xs-50">
               <h2 className="section-title mb-20 wow fadeInUp">
-                Check recent achievements.
-              </h2>
+              Check Our Recent Achievements
+                </h2>
               <p
                 className="section-descr mb-40 wow fadeInUp"
                 data-wow-delay="0.1s"
               >
-                We provide the effective ideas that grow businesses of our
-                clients.
+              We deliver impactful solutions that drive growth for our clients.
               </p>
               <div className="local-scroll wow fadeInUp" data-wow-delay="0.2s">
                 {onePage ? (
@@ -173,14 +172,14 @@ export default function Home1({ onePage = false, dark = false }) {
           </div>
         </div>
       </ParallaxContainer>
-      <section
+      {/* <section
         className={`page-section  scrollSpysection  ${
           dark ? "bg-dark-1 light-content" : ""
         }`}
         id="portfolio"
       >
         <Portfolio />
-      </section>
+      </section> */}
       <hr className={`mt-0 mb-0 ${dark ? "white" : ""}`} />
       <section
         className={`page-section  ${
@@ -207,8 +206,7 @@ export default function Home1({ onePage = false, dark = false }) {
           <div className="row text-center wow fadeInUp">
             <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
               <p className="section-descr mb-50 mb-sm-30">
-                The power of design help us to solve complex problems and
-                cultivate business solutions.
+              Design empowers us to tackle complex problems and develop effective business solutions.
               </p>
               <div className="local-scroll">
                 {onePage ? (
@@ -343,11 +341,11 @@ export default function Home1({ onePage = false, dark = false }) {
       </section>
 
       <hr className={`mt-0 mb-0 ${dark ? "white" : ""}`} />
-      <section
+      {/* <section
         className={`page-section  ${dark ? "bg-dark-1 light-content" : ""}`}
       >
         <Promo />{" "}
-      </section>
+      </section> */}
       <hr className={`mt-0 mb-0 ${dark ? "white" : ""}`} />
       <section
         className={`page-section  scrollSpysection  ${
@@ -390,14 +388,14 @@ export default function Home1({ onePage = false, dark = false }) {
       >
         <NewsLetter />
       </section>
-      <section
+      {/* <section
         className={`page-section  scrollSpysection  ${
           dark ? "bg-dark-1 light-content" : ""
         }`}
         id="contact"
       >
         <Contact />{" "}
-      </section>
+      </section> */}
     </>
   );
 }
